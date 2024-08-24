@@ -20,7 +20,7 @@ def caesar(st):
     else:
         return "wrong input!"
 
-print(logo)
+
 
 status = input("Type 'encode' to encrypt, type 'decode' to decrypt: ").lower()
 Possibility = caesar(status)
@@ -30,7 +30,7 @@ if Possibility == "wrong input!":
 else:
     while True:
         clear_console()
-        print(logo)
+        print(logo.logo)
 
         At_Final = input("Type 'yes' if you want to go again. Otherwise type 'no'. ").lower()
         if At_Final == "no":
