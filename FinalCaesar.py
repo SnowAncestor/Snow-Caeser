@@ -20,8 +20,6 @@ def caesar(st):
     else:
         return "wrong input!"
 
-
-
 status = input("Type 'encode' to encrypt, type 'decode' to decrypt: ").lower()
 Possibility = caesar(status)
 
@@ -29,6 +27,8 @@ if Possibility == "wrong input!":
     print("You have two choices! But unfortunately you have lost them.")
 else:
     while True:
+        input("Press Enter to continue...")  
+
         clear_console()
         print(logo.logo)
 
